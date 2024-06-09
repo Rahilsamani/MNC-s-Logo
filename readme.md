@@ -4,7 +4,7 @@ This project showcases an animated feature of various MNC logos arranged in a ci
 
 ## Preview
 
-![Project Preview](images/project-demo.mp4)
+![Project Preview](images/project-demo.png)
 
 ## Technologies Used
 
