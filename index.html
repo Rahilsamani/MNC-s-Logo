@@ -6,6 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeHelp MNC's Logo Feature</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .outer-spin-animation {
+        animation: spin-outer-div 70s linear infinite;
+      }
+
+      @keyframes spin-outer-div {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .logo {
+        animation: spin-logo 70s linear infinite;
+      }
+
+      @keyframes spin-logo {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(-360deg);
+        }
+      }
+
+      .inner-spin-animation {
+        animation: spin-inner-div 40s linear infinite;
+      }
+
+      @keyframes spin-inner-div {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(-360deg);
+        }
+      }
+
+      .inner-logo {
+        animation: spin-inner-logo 93.335s linear infinite;
+      }
+
+      @keyframes spin-inner-logo {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- wrapper -->
@@ -65,25 +122,25 @@
                 src="images/adobe.webp"
                 width="150px"
                 alt="adobe-logo"
-                class="absolute -left-[72px] top-[24px]"
+                class="absolute -left-[72px] top-[24px] inner-logo"
               />
               <img
                 src="images/linkedin.webp"
                 width="150px"
                 alt="linkedin-logo"
-                class="absolute -right-[72px] top-[24px]"
+                class="absolute -right-[72px] top-[24px] inner-logo"
               />
               <img
                 src="images/flipkart.webp"
                 width="150px"
                 alt="flipkart-logo"
-                class="absolute left-[23px] -bottom-[75px]"
+                class="absolute left-[23px] -bottom-[75px] inner-logo"
               />
               <img
                 src="images/ola.webp"
                 width="150px"
                 alt="ola-logo"
-                class="absolute left-[23px] -top-[70px]"
+                class="absolute left-[23px] -top-[70px] inner-logo"
               />
             </div>
           </div>
