@@ -4,7 +4,7 @@ This project showcases an animated feature of various MNC logos arranged in a ci
 
 ## Preview
 
-![Project Preview](images/project-demo.png)
+![Project Preview](images/demo.mp4)
 
 ## Technologies Used
 
@@ -21,14 +21,16 @@ This project showcases an animated feature of various MNC logos arranged in a ci
 ## How to Run
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/Rahilsamani/MNC-s-Logo.git
-    ```
+
+   ```sh
+   git clone https://github.com/Rahilsamani/MNC-s-Logo.git
+   ```
 
 2. Navigate to the project directory:
-    ```sh
-    cd MNC-s-Logo
-    ```
+
+   ```sh
+   cd MNC-s-Logo
+   ```
 
 3. Open the `index.html` file in your preferred web browser.
 
@@ -55,4 +57,3 @@ codehelp-mnc-logo-feature/
 ## Contact
 
 If you have any questions or feedback, please feel free to contact me at rahilahmed1720@gmail.com.
-
